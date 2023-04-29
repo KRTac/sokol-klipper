@@ -1,0 +1,10 @@
+[file_manager]
+enable_object_processing: True
+
+[update_manager klipper-macros]
+type: git_repo
+origin: https://github.com/jschuh/klipper-macros.git
+path: ~/printer_data/klipper-macros
+primary_branch: main
+is_system_service: False
+managed_services: klipper
