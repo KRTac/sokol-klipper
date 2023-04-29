@@ -2,3 +2,4 @@ printer.cfg
 moonraker.conf
 *.bin
 .*
+*.zip
