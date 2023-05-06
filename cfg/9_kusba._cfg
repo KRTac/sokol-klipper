@@ -3,14 +3,8 @@ serial: /dev/serial/by-id/usb-Klipper_rp2040_E661347507946322-if00
 
 [adxl345]
 cs_pin: kusba:gpio1
-# Hardware SPI Option (Better results, "Invalid ID" Klipper bug with first query)
 spi_bus: spi0a
-
-# Software SPI Option (No "Invalid ID" Klipper bug with first query)
-# spi_software_sclk_pin: kusba:gpio2
-# spi_software_mosi_pin: kusba:gpio3
-# spi_software_miso_pin: kusba:gpio0
 
 [resonance_tester]
 accel_chip: adxl345
-probe_points: 140,115,20
+probe_points: 125,74,20
