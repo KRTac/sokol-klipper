@@ -9,3 +9,7 @@ axes_map: z, -y, -x
 [resonance_tester]
 accel_chip: adxl345
 probe_points: 134, 133, 20
+
+[temperature_sensor KUSBA]
+sensor_type: temperature_mcu
+sensor_mcu: kusba
