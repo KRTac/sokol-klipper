@@ -107,7 +107,7 @@
         "0"
     ],
     "machine_pause_gcode": "PAUSE",
-    "machine_start_gcode": "M190 S0\nM109 S0\nPRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[0]} CHAMBER={chamber_temperature[0]} PA={pressure_advance[0]}\n",
+    "machine_start_gcode": "M190 S0\nM109 S0\nPRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[initial_tool]} CHAMBER={chamber_temperature[0]} PA={pressure_advance[0]}\n",
     "machine_unload_filament_time": "0",
     "max_layer_height": [
         "0.3"
@@ -123,7 +123,7 @@
     "nozzle_type": "undefine",
     "nozzle_volume": "130",
     "parking_pos_retraction": "92",
-    "print_host": "192.168.1.249",
+    "print_host": "192.168.1.250",
     "print_host_webui": "",
     "printable_area": [
         "0x0",
