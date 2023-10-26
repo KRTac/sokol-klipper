@@ -132,7 +132,7 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "0.15"
+        "0.2"
     ],
     "filament_retraction_minimum_travel": [
         "nil"
@@ -195,7 +195,7 @@
     "inherits": "Voron Generic ASA",
     "name": "Azurefilm ASA",
     "nozzle_temperature": [
-        "250"
+        "255"
     ],
     "nozzle_temperature_initial_layer": [
         "255"
@@ -225,7 +225,7 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "3"
+        "22"
     ],
     "slow_down_min_speed": [
         "20"
