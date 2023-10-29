@@ -107,7 +107,7 @@
         "0"
     ],
     "machine_pause_gcode": "PAUSE",
-    "machine_start_gcode": "PRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[initial_tool]} CHAMBER={chamber_temperature[initial_tool]} PA={pressure_advance[initial_tool]}\n",
+    "machine_start_gcode": "PRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[initial_tool]} CHAMBER={chamber_temperature[initial_tool]} PA={pressure_advance[initial_tool]} FILAMENT_TYPE=\"{filament_type[initial_extruder]}\"\n",
     "machine_unload_filament_time": "0",
     "max_layer_height": [
         "0.3"
