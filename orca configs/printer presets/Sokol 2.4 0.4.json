@@ -1,0 +1,70 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\nBEFORE_LAYER_CHANGE HEIGHT=[layer_z] LAYER=[layer_num]\n",
+    "deretraction_speed": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "Voron 2.4 250 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nAFTER_LAYER_CHANGE\n",
+    "machine_end_gcode": "PRINT_END\n",
+    "machine_max_acceleration_x": [
+        "7000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "7000",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "300",
+        "200"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "700",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "700",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "20",
+        "12"
+    ],
+    "machine_start_gcode": "PRINT_START EXTRUDER={first_layer_temperature[initial_tool]} BED=[first_layer_bed_temperature] MESH_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} MESH_MAX={first_layer_print_max[0]},{first_layer_print_max[1]} LAYERS={total_layer_count} NOZZLE_SIZE={nozzle_diameter[initial_tool]} CHAMBER={chamber_temperature[initial_tool]} PA={pressure_advance[initial_tool]} FILAMENT_TYPE=\"{filament_type[initial_extruder]}\"\n",
+    "max_layer_height": [
+        "0.3"
+    ],
+    "name": "Sokol 2.4 0.4",
+    "nozzle_volume": "130",
+    "print_host": "192.168.1.250",
+    "printable_area": [
+        "0x0",
+        "287x0",
+        "287x313",
+        "0x313"
+    ],
+    "printable_height": "220",
+    "printer_settings_id": "Sokol 2.4 0.4",
+    "retraction_length": [
+        "0.4"
+    ],
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "retraction_speed": [
+        "70"
+    ],
+    "version": "1.5.1.2",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0.2"
+    ]
+}
